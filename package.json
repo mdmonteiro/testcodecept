@@ -1,0 +1,21 @@
+{
+  "name": "testcept",
+  "version": "1.0.0",
+  "description": "teste de API Easynvest",
+  "main": "test_api.js",
+  "scripts": {
+    "test": "codeceptjs run"
+  },
+  "keywords": [
+    "codeceptjs",
+    "rest"
+  ],
+  "author": "Maycon Monteiro",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.5.0"    
+  },
+  "dependencies": {
+     "chai": "^4.2.0"
+  }
+}
