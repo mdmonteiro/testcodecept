@@ -16,8 +16,8 @@ exports.config = {
   name: 'TestCodeCept',
   translation: 'pt-BR',
   plugins: {
-    retryFailedStep: {
-      enabled: true
+    screenshotOnFail: {
+      enabled: false      
       }
   }
 };

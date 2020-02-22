@@ -1,5 +1,5 @@
 {
-  "name": "testcept",
+  "name": "testcodeceptjs",
   "version": "1.0.0",
   "description": "teste de API Easynvest",
   "main": "test_api.js",
@@ -8,14 +8,26 @@
   },
   "keywords": [
     "codeceptjs",
-    "rest"
+    "rest",
+    "API"
   ],
   "author": "Maycon Monteiro",
-  "license": "ISC",
+  "license": "",
   "devDependencies": {
-    "codeceptjs": "^2.5.0"    
+    "codeceptjs": "^2.5.0"
   },
   "dependencies": {
-     "chai": "^4.2.0"
-  }
+    "chai": "^4.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmonteiro/testcodecept.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdmonteiro/testcodecept/issues"
+  },
+  "homepage": "https://github.com/mdmonteiro/testcodecept#readme"
 }
